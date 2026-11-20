@@ -1,0 +1,8 @@
+function sumar() {
+    let n1 = Number(document.getElementById("numero1").value);
+    let n2 = Number(document.getElementById("numero2").value);
+    let suma = n1 + n2;
+
+    document.getElementById("resultado").innerHTML = 
+    "El resultado de la suma es: " + suma;
+}
